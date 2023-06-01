@@ -43,7 +43,7 @@ useEffect(() => {
                       onClick={signOut}>
                         Sign Out
                     </button>
-                    <Link href="/Profile" className="">
+                    <Link href="/profile" className="">
                         <Image 
                            src={session?.user?.image}
                            width={37}
